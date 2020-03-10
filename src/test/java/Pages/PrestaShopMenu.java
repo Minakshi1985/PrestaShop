@@ -81,7 +81,7 @@ public class PrestaShopMenu {
         driver.findElement(By.cssSelector(".btn-primary > .material-icons")).click();
         driver.findElement(By.cssSelector(".cart-content-btn > .btn-primary")).click();
         driver.findElements(By.linkText("chevron_leftContinue shopping")).size();
- driver.manage();
+
     }
 
 
