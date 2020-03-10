@@ -3,11 +3,15 @@ package Pages;
 import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.server.handler.MaximizeWindow;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.ISelect;
 import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import sun.java2d.opengl.WGLVolatileSurfaceManager;
+
 
 import java.util.concurrent.TimeUnit;
 
@@ -16,11 +20,12 @@ public class PrestaShopMenu {
     static WebDriver driver = new ChromeDriver();
 
     @BeforeClass
-    public static void startBrowser() {
+    public static void start() {
         System.out.println(("BeforeClass---startBrowser"));
         driver.get("http://demo.prestashop.com");
         driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@id='framelive']")));
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
     }
 
     @Before
@@ -76,7 +81,7 @@ public class PrestaShopMenu {
         driver.findElement(By.cssSelector(".btn-primary > .material-icons")).click();
         driver.findElement(By.cssSelector(".cart-content-btn > .btn-primary")).click();
         driver.findElements(By.linkText("chevron_leftContinue shopping")).size();
-
+ driver.manage();
     }
 
 
@@ -85,12 +90,16 @@ public class PrestaShopMenu {
     public void TestCase4() {
         System.out.println(("Test........TestCase4"));
 
-       String text = "Search";
+        String text = "Search";
         driver.findElement(By.xpath("//input[@name='s']")).sendKeys("Accessories");
+        driver.findElement(By.cssSelector("button > .search")).click();
         driver.manage().window().maximize();
+      //  driver.findElement(By.xpath("//div[@id='js-product-list']/div/article[3]/div/div[2]")).click();
         driver.findElement(By.xpath("//img[@alt='Mug Today is a good day']")).click();
         driver.findElement(By.cssSelector(".add-to-cart")).click();
-        driver.findElement(By.cssSelector(".btn-secondary")).click();
+        driver.findElement(By.cssSelector(".cart-content-btn > .btn-primary")).click();
+        driver.findElements(By.linkText("chevron_leftContinue shopping")).size();
+
 
     }
     // 5. As a user i want to use Contact us option so that i can get answers of my question regarding the product.
@@ -100,17 +109,17 @@ public class PrestaShopMenu {
 
         String title="Contact us";
         driver.manage().window().maximize();
-        driver.findElement(By.xpath("//a[contains(.,'Contact us')]")).click();
+        driver.findElement(By.xpath("//a[contains(text(),'Contact us')]")).click();
         driver.findElement(By.xpath("//input[@name='from']")).sendKeys("csminakshi.verma@gmail.com");
         driver.findElement(By.xpath("//textarea[@name='message']")).sendKeys("Hello i have some questions.");
-        driver.findElement(By.xpath("//input[@name='submitMessage']")).click();
+        driver.findElement(By.cssSelector(".btn:nth-child(4)")).click();
 
     }
 
     @AfterClass
-    public static void closeBrowser() {
+    public static void close() {
         System.out.println(("AfterClass---  closeBrowser"));
-        driver.quit();
+        driver.close();
 
     }
 }

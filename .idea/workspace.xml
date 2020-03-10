@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b400bf0-e1b8-4f09-ac3e-6868115eba29" name="Default Changelist" comment="" />
+    <list default="true" id="7b400bf0-e1b8-4f09-ac3e-6868115eba29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/PrestaShopMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/PrestaShopMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/PrestaShopMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/PrestaShopMenu.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +22,10 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -29,13 +42,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../loadcoder-examples/loadcoder-examples/rest-loadtest" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pages.Main" />
+  <component name="RunManager" selected="JUnit.PrestaShopMenu">
+    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pages.TestRunner" />
       <module name="PrestaShop" />
       <extension name="coverage">
         <pattern>
@@ -47,9 +63,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrestaShopMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PrestaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Pages" />
+      <option name="MAIN_CLASS_NAME" value="Pages.PrestaShopMenu" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrestaShopMenu.TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PrestaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Pages" />
+      <option name="MAIN_CLASS_NAME" value="Pages.PrestaShopMenu" />
+      <option name="METHOD_NAME" value="TestCase1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrestaShopMenu.TestCase4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PrestaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Pages" />
+      <option name="MAIN_CLASS_NAME" value="Pages.PrestaShopMenu" />
+      <option name="METHOD_NAME" value="TestCase4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrestaShopMenu.TestCase5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PrestaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Pages" />
+      <option name="MAIN_CLASS_NAME" value="Pages.PrestaShopMenu" />
+      <option name="METHOD_NAME" value="TestCase5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PrestaShopMenu" />
+        <item itemvalue="JUnit.PrestaShopMenu.TestCase5" />
+        <item itemvalue="JUnit.PrestaShopMenu.TestCase4" />
+        <item itemvalue="Application.TestRunner" />
+        <item itemvalue="JUnit.PrestaShopMenu.TestCase1" />
       </list>
     </recent_temporary>
   </component>
@@ -64,28 +147,93 @@
       <option name="presentableId" value="Default" />
       <updated>1581497668974</updated>
     </task>
+    <task id="LOCAL-00001" summary="Intiate commit">
+      <created>1583763299658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583763299658</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Intiate commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intiate commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="392" y="88" key="#Project_Structure" timestamp="1581499548432">
+    <state x="392" y="88" key="#Project_Structure" timestamp="1583841925988">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="88" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1581499548432" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1581504376939">
+    <state x="392" y="88" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1583841925988" />
+    <state x="547" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583169006430">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1581504376939" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1581504376939">
+    <state x="547" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1583169006430" />
+    <state x="451" y="24" key="CommitChangelistDialog2" timestamp="1583763297660">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1581504376939" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1581504376939">
+    <state x="451" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1583763297660" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1582109999113">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1581504376939" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1581504376939">
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1582109999113" />
+    <state width="1557" height="206" key="GridCell.Tab.0.bottom" timestamp="1583850769992">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1581504376939" />
+    <state width="1557" height="206" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583850769992" />
+    <state width="1557" height="206" key="GridCell.Tab.0.center" timestamp="1583850769992">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="206" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583850769992" />
+    <state width="1557" height="206" key="GridCell.Tab.0.left" timestamp="1583850769992">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="206" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583850769992" />
+    <state width="1557" height="206" key="GridCell.Tab.0.right" timestamp="1583850769992">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="206" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583850769992" />
+    <state width="1557" height="275" key="GridCell.Tab.1.bottom" timestamp="1583518442024">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="275" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583518442024" />
+    <state width="1557" height="275" key="GridCell.Tab.1.center" timestamp="1583518442024">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="275" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1583518442024" />
+    <state width="1557" height="275" key="GridCell.Tab.1.left" timestamp="1583518442024">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="275" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1583518442024" />
+    <state width="1557" height="275" key="GridCell.Tab.1.right" timestamp="1583518442024">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="275" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1583518442024" />
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1583763480557">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1583763480557" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1583842730346">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1583842730346" />
+    <state x="609" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583763249043">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="609" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1583763249043" />
+    <state x="182" y="125" key="new project wizard" timestamp="1583841761438">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="125" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1583841761438" />
+    <state x="456" y="197" key="run.anything.popup" timestamp="1582282974026">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="197" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1582282974026" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PrestaShop$PrestaShopMenu_TestCase3.ic" NAME="PrestaShopMenu.TestCase3 Coverage Results" MODIFIED="1583492541427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Pages.*</FILTER>
+    </SUITE>
   </component>
 </project>
