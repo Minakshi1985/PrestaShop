@@ -1,16 +1,10 @@
 package Pages;
 
+import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptExecutor;
 import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.server.handler.MaximizeWindow;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.ISelect;
-import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import sun.java2d.opengl.WGLVolatileSurfaceManager;
 
 
 import java.util.concurrent.TimeUnit;
@@ -18,6 +12,8 @@ import java.util.concurrent.TimeUnit;
 public class PrestaShopMenu {
 
     static WebDriver driver = new ChromeDriver();
+    private static Object JavaScriptExecutor;
+
 
     @BeforeClass
     public static void start() {
@@ -25,6 +21,7 @@ public class PrestaShopMenu {
         driver.get("http://demo.prestashop.com");
         driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@id='framelive']")));
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
 
     }
 
@@ -40,8 +37,8 @@ public class PrestaShopMenu {
         System.out.println(("Test-----TestCase1"));
 
         String title = "Log in to your customer account";
+        driver.manage().window().maximize();
         driver.findElement(By.xpath("//span[contains(.,'Sign in')]")).click();
-
         driver.findElement(By.xpath("//a[contains(text(),'No account? Create one here')]")).click();
         driver.findElement(By.cssSelector(".radio-inline:nth-child(2) input")).click();
         driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("Minakshi");
@@ -62,6 +59,7 @@ public class PrestaShopMenu {
     public void TestCase2() {
         System.out.println(("Test........TestCase2"));
         String title = "Log in to your customer account";
+        driver.manage().window().maximize();
         driver.findElement(By.xpath("//span[contains(.,'Sign in')]")).click();
         driver.findElement(By.xpath("//input[@name='email']")).sendKeys("csminakshi.verma@gmail.com");
         driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Gamepoker007");
@@ -79,6 +77,7 @@ public class PrestaShopMenu {
         driver.manage().window().maximize();
         driver.findElement(By.cssSelector(".thumbnail > img")).click();
         driver.findElement(By.cssSelector(".btn-primary > .material-icons")).click();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(By.cssSelector(".cart-content-btn > .btn-primary")).click();
         driver.findElements(By.linkText("chevron_leftContinue shopping")).size();
 
@@ -89,7 +88,6 @@ public class PrestaShopMenu {
     @Test
     public void TestCase4() {
         System.out.println(("Test........TestCase4"));
-
         String text = "Search";
         driver.findElement(By.xpath("//input[@name='s']")).sendKeys("Accessories");
         driver.findElement(By.cssSelector("button > .search")).click();
@@ -99,8 +97,8 @@ public class PrestaShopMenu {
         driver.findElement(By.cssSelector(".add-to-cart")).click();
         driver.findElement(By.cssSelector(".cart-content-btn > .btn-primary")).click();
         driver.findElements(By.linkText("chevron_leftContinue shopping")).size();
-
-
+        driver.navigate().back();
+        driver.navigate().refresh();
     }
     // 5. As a user i want to use Contact us option so that i can get answers of my question regarding the product.
     @ Test
@@ -113,7 +111,8 @@ public class PrestaShopMenu {
         driver.findElement(By.xpath("//input[@name='from']")).sendKeys("csminakshi.verma@gmail.com");
         driver.findElement(By.xpath("//textarea[@name='message']")).sendKeys("Hello i have some questions.");
         driver.findElement(By.cssSelector(".btn:nth-child(4)")).click();
-
+        driver.navigate().back();
+        driver.navigate().refresh();
     }
 
     @AfterClass

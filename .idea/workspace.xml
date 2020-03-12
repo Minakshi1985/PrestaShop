@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7b400bf0-e1b8-4f09-ac3e-6868115eba29" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/PrestaShopMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/PrestaShopMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/PrestaShopMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/PrestaShopMenu.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +44,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="JUnit.PrestaShopMenu">
-    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pages.TestRunner" />
-      <module name="PrestaShop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PrestaShopMenu.TestCase5">
     <configuration name="PrestaShopMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PrestaShop" />
       <extension name="coverage">
@@ -82,6 +71,22 @@
       <option name="PACKAGE_NAME" value="Pages" />
       <option name="MAIN_CLASS_NAME" value="Pages.PrestaShopMenu" />
       <option name="METHOD_NAME" value="TestCase1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrestaShopMenu.TestCase3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PrestaShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Pages" />
+      <option name="MAIN_CLASS_NAME" value="Pages.PrestaShopMenu" />
+      <option name="METHOD_NAME" value="TestCase3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PrestaShopMenu" />
         <item itemvalue="JUnit.PrestaShopMenu.TestCase5" />
-        <item itemvalue="JUnit.PrestaShopMenu.TestCase4" />
-        <item itemvalue="Application.TestRunner" />
+        <item itemvalue="JUnit.PrestaShopMenu.TestCase3" />
+        <item itemvalue="JUnit.PrestaShopMenu" />
         <item itemvalue="JUnit.PrestaShopMenu.TestCase1" />
+        <item itemvalue="JUnit.PrestaShopMenu.TestCase4" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583854616281</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Intiate commit">
+      <created>1583867510507</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583867510507</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -177,30 +189,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="547" y="277" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1583169006430" />
-    <state x="451" y="24" key="CommitChangelistDialog2" timestamp="1583854615038">
+    <state x="451" y="24" key="CommitChangelistDialog2" timestamp="1583867508491">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="451" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1583854615038" />
+    <state x="451" y="24" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1583867508491" />
     <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1582109999113">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1582109999113" />
-    <state width="1557" height="206" key="GridCell.Tab.0.bottom" timestamp="1583854737297">
+    <state width="1557" height="206" key="GridCell.Tab.0.bottom" timestamp="1583933190845">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="206" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583854737297" />
-    <state width="1557" height="206" key="GridCell.Tab.0.center" timestamp="1583854737297">
+    <state width="1557" height="206" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583933190845" />
+    <state width="1557" height="206" key="GridCell.Tab.0.center" timestamp="1583933190845">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="206" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583854737297" />
-    <state width="1557" height="206" key="GridCell.Tab.0.left" timestamp="1583854737297">
+    <state width="1557" height="206" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583933190845" />
+    <state width="1557" height="206" key="GridCell.Tab.0.left" timestamp="1583933190845">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="206" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583854737297" />
-    <state width="1557" height="206" key="GridCell.Tab.0.right" timestamp="1583854737297">
+    <state width="1557" height="206" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583933190845" />
+    <state width="1557" height="206" key="GridCell.Tab.0.right" timestamp="1583933190845">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="206" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583854737297" />
+    <state width="1557" height="206" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583933190845" />
     <state width="1557" height="275" key="GridCell.Tab.1.bottom" timestamp="1583518442024">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -217,18 +229,18 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="275" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1583518442024" />
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1583854629580">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1583867547486">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1583854629580" />
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1583867479798">
+    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1583867547486" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1583928449739">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1583867479798" />
-    <state x="609" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583763249043">
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1583928449739" />
+    <state x="609" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583867515100">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="609" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1583763249043" />
+    <state x="609" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1583867515100" />
     <state x="182" y="125" key="new project wizard" timestamp="1583841761438">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -237,6 +249,20 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="456" y="197" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1582282974026" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Pages/PrestaShopMenu.java</url>
+          <line>71</line>
+          <properties class="Pages.PrestaShopMenu" method="TestCase3">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PrestaShop$PrestaShopMenu_TestCase3.ic" NAME="PrestaShopMenu.TestCase3 Coverage Results" MODIFIED="1583492541427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
